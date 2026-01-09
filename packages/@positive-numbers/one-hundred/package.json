@@ -1,6 +1,6 @@
 {
   "name": "@positive-numbers/one-hundred",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "The number 100 exported as an npm package.",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,6 @@
   ],
   "author": "tj-commits",
   "license": "ISC",
-  "dependencies": {
-    "five": "*"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -27,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/js-constant/positive-numbers/issues"
   },
-  "homepage": "https://github.com/js-constant/positive-numbers#readme"
+  "homepage": "https://github.com/js-constant/positive-numbers#readme",
+  "dependencies": {
+    "number-one-hundred": "^1.0.0"
+  }
 }
