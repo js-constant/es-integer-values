@@ -1,0 +1,24 @@
+{
+  "name": "@negative-numbers/ninety-four",
+  "version": "1.0.0",
+  "description": "Provides the number negative ninety four",
+  "keywords": [
+    "number",
+    "negative",
+    "ninety-four"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/integer-values",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/integer-values"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/integer-values.git"
+  },
+  "license": "dffdssfdsfsdfsf",
+  "author": "10x'ly Made",
+  "dependencies": {
+    "@positive-numbers/ninety-four": "*",
+    "countingup": "^0.0.1"
+  }
+}

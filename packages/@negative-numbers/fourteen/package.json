@@ -1,0 +1,24 @@
+{
+  "name": "@negative-numbers/fourteen",
+  "version": "1.0.0",
+  "description": "Provides the number negative fourteen",
+  "keywords": [
+    "number",
+    "negative",
+    "fourteen"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/integer-values",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/integer-values"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/integer-values.git"
+  },
+  "license": "dffdssfdsfsdfsf",
+  "author": "10x'ly Made",
+  "dependencies": {
+    "@positive-numbers/fourteen": "*",
+    "countingup": "^0.0.1"
+  }
+}

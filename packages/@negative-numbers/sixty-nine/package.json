@@ -1,0 +1,24 @@
+{
+  "name": "@negative-numbers/sixty-nine",
+  "version": "1.0.0",
+  "description": "Provides the number negative sixty nine",
+  "keywords": [
+    "number",
+    "negative",
+    "sixty-nine"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/integer-values",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/integer-values"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/integer-values.git"
+  },
+  "license": "dffdssfdsfsdfsf",
+  "author": "10x'ly Made",
+  "dependencies": {
+    "@positive-numbers/sixty-nine": "*",
+    "countingup": "^0.0.1"
+  }
+}

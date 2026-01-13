@@ -1,4 +1,6 @@
 declare const exportsMap: {
+  positiveZero: number
+  
   positiveOne: number
 
   positiveTwo: number
@@ -198,6 +200,208 @@ declare const exportsMap: {
   positiveNinetyNine: number
 
   positiveOneHundred: number
+
+  negativeZero: number
+
+  negativeOne: number
+
+  negativeTwo: number
+
+  negativeThree: number
+
+  negativeFour: number
+
+  negativeFive: number
+
+  negativeSix: number
+
+  negativeSeven: number
+
+  negativeEight: number
+
+  negativeNine: number
+
+  negativeTen: number
+
+  negativeEleven: number
+
+  negativeTwelve: number
+
+  negativeThirteen: number
+
+  negativeFourteen: number
+
+  negativeFifteen: number
+
+  negativeSixteen: number
+
+  negativeSeventeen: number
+
+  negativeEighteen: number
+
+  negativeNineteen: number
+
+  negativeTwenty: number
+
+  negativeTwentyOne: number
+
+  negativeTwentyTwo: number
+
+  negativeTwentyThree: number
+
+  negativeTwentyFour: number
+
+  negativeTwentyFive: number
+
+  negativeTwentySix: number
+
+  negativeTwentySeven: number
+
+  negativeTwentyEight: number
+
+  negativeTwentyNine: number
+
+  negativeThirty: number
+
+  negativeThirtyOne: number
+
+  negativeThirtyTwo: number
+
+  negativeThirtyThree: number
+
+  negativeThirtyFour: number
+
+  negativeThirtyFive: number
+
+  negativeThirtySix: number
+
+  negativeThirtySeven: number
+
+  negativeThirtyEight: number
+
+  negativeThirtyNine: number
+
+  negativeForty: number
+
+  negativeFortyOne: number
+
+  negativeFortyTwo: number
+
+  negativeFortyThree: number
+
+  negativeFortyFour: number
+
+  negativeFortyFive: number
+
+  negativeFortySix: number
+
+  negativeFortySeven: number
+
+  negativeFortyEight: number
+
+  negativeFortyNine: number
+
+  negativeFifty: number
+
+  negativeFiftyOne: number
+
+  negativeFiftyTwo: number
+
+  negativeFiftyThree: number
+
+  negativeFiftyFour: number
+
+  negativeFiftyFive: number
+
+  negativeFiftySix: number
+
+  negativeFiftySeven: number
+
+  negativeFiftyEight: number
+
+  negativeFiftyNine: number
+
+  negativeSixty: number
+
+  negativeSixtyOne: number
+
+  negativeSixtyTwo: number
+
+  negativeSixtyThree: number
+
+  negativeSixtyFour: number
+
+  negativeSixtyFive: number
+
+  negativeSixtySix: number
+
+  negativeSixtySeven: number
+
+  negativeSixtyEight: number
+
+  negativeSixtyNine: number
+
+  negativeSeventy: number
+
+  negativeSeventyOne: number
+
+  negativeSeventyTwo: number
+
+  negativeSeventyThree: number
+
+  negativeSeventyFour: number
+
+  negativeSeventyFive: number
+
+  negativeSeventySix: number
+
+  negativeSeventySeven: number
+
+  negativeSeventyEight: number
+
+  negativeSeventyNine: number
+
+  negativeEighty: number
+
+  negativeEightyOne: number
+
+  negativeEightyTwo: number
+
+  negativeEightyThree: number
+
+  negativeEightyFour: number
+
+  negativeEightyFive: number
+
+  negativeEightySix: number
+
+  negativeEightySeven: number
+
+  negativeEightyEight: number
+
+  negativeEightyNine: number
+
+  negativeNinety: number
+
+  negativeNinetyOne: number
+
+  negativeNinetyTwo: number
+
+  negativeNinetyThree: number
+
+  negativeNinetyFour: number
+
+  negativeNinetyFive: number
+
+  negativeNinetySix: number
+
+  negativeNinetySeven: number
+
+  negativeNinetyEight: number
+
+  negativeNinetyNine: number
+
+  negativeOneHundred: number
 }
 
 export = exportsMap

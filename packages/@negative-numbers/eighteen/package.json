@@ -1,0 +1,24 @@
+{
+  "name": "@negative-numbers/eighteen",
+  "version": "1.0.0",
+  "description": "Provides the number negative eighteen",
+  "keywords": [
+    "number",
+    "negative",
+    "eighteen"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/integer-values",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/integer-values"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/integer-values.git"
+  },
+  "license": "dffdssfdsfsdfsf",
+  "author": "10x'ly Made",
+  "dependencies": {
+    "@positive-numbers/eighteen": "*",
+    "countingup": "^0.0.1"
+  }
+}

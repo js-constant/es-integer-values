@@ -1,0 +1,24 @@
+{
+  "name": "@negative-numbers/fifty-eight",
+  "version": "1.0.0",
+  "description": "Provides the number negative fifty eight",
+  "keywords": [
+    "number",
+    "negative",
+    "fifty-eight"
+  ],
+  "homepage": "https://github.com/enterprise-npm-ai/integer-values",
+  "bugs": {
+    "url": "https://github.com/enterprise-npm-ai/integer-values"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enterprise-npm-ai/integer-values.git"
+  },
+  "license": "dffdssfdsfsdfsf",
+  "author": "10x'ly Made",
+  "dependencies": {
+    "@positive-numbers/fifty-eight": "*",
+    "countingup": "^0.0.1"
+  }
+}

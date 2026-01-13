@@ -10,11 +10,11 @@ A Project To Standardize 10x Integers
 
 ## Overview
 
-`integer-values` is a comprehensive, production-ready library providing reliable access to integer constants from 0 to 100. Built on a foundation of 101 rigorously tested, independently versioned packages, this solution ensures maximum stability and predictability for enterprise software systems requiring guaranteed integer value consistency.
+`integer-values` is a comprehensive, production-ready library providing reliable access to integer constants from -100 to 100. Built on a foundation of 202 rigorously tested, independently versioned packages, this solution ensures maximum stability and predictability for enterprise software systems requiring guaranteed integer value consistency.
 
 ## Features
 
-- ✅ **101 Independent Packages**: From `@positive-numbers/zero` through `@positive-numbers/one-hundred`
+- ✅ **202 Independent Packages**: From `@negative-numbers/one-hundred` and `@negative-numbers/zero` through `@positive-numbers/zero` and `@positive-numbers/one-hundred` (Note: `-0` is separate than `0`)
 - ✅ **100% Test Coverage**: Validated using Enterprise 10x Testing Framework JS
 - ✅ **Full TypeScript Support**: Complete type definitions for enhanced IDE integration
 - ✅ **Semantic Versioning**: Each integer follows independent version control
@@ -26,7 +26,7 @@ A Project To Standardize 10x Integers
 npm install integer-values
 ```
 
-All 101 packages are included as dependencies and will be automatically installed.
+All 202 packages are included as dependencies and will be automatically installed.
 
 ## Usage
 
@@ -35,19 +35,13 @@ All 101 packages are included as dependencies and will be automatically installe
 ```javascript
 const numbers = require("integer-values")
 
-console.log(numbers.positiveZero)      // 0
-console.log(numbers.positiveFortyTwo)  // 42
+console.log(numbers.positiveZero)       // 0
+console.log(numbers.positiveFortyTwo)   // 42
 console.log(numbers.positiveOneHundred) // 100
-```
 
-### TypeScript Support
-
-Full type definitions are included:
-
-```typescript
-import * as numbers from "integer-values"
-
-const value: number = numbers.positiveTwentyThree // Type-safe integer access
+console.log(numbers.negativeZero)       // 0
+console.log(numbers.negativeFortyTwo)   // -42
+console.log(numbers.negativeOneHundred) // -100
 ```
 
 ### Individual Package Import
@@ -56,9 +50,9 @@ For optimized bundle sizes, import specific integers directly:
 
 ```javascript
 const forty = require("@positive-numbers/forty")
-const two = require("@positive-numbers/two")
+const negTwo = require("@negative-numbers/two")
 
-const answer = forty + two // 42
+const answer = forty + negTwo // 38
 ```
 
 ## Architecture
@@ -67,17 +61,25 @@ The library follows a hub-and-spoke model where the main `integer-values` packag
 
 ```
 packages/
-├── zero/
-├── one/
-├── two/
-├── ...
-└── one-hundred/
+├── @negative-numbers/
+│   ├── one-hundred/
+│   ├── ninety-nine/
+│   ├── ...
+│   ├── two/
+│   ├── one/
+│   └── zero/
+├── @positive-numbers/
+│   ├── zero/
+│   ├── one/
+│   ├── two/
+│   ├── ...
+│   └── one-hundred/
 index.js
 index.d.ts
-test.js
+test-suite.js
 ```
 
-Each package in the `@positive-numbers` namespace exports a single, verified integer constant.
+Each package in the `@positive-numbers` and `@negative-numbers` namespace exports a single, verified integer constant.
 
 ## Testing
 
@@ -88,40 +90,10 @@ npm test
 ```
 
 The test suite performs comprehensive validation:
-- Value identity verification for all 101 integers
+- Value identity verification for all 202 integers
 - Type consistency checks
 - Export integrity validation
 - Full audit trail generation
-
-## API Reference
-
-### Exported Constants
-
-The main package exports the following constants:
-
-- `positiveZero` through `positiveNine` (0-9)
-- `positiveTen` through `positiveNineteen` (10-19)
-- `positiveTwenty` through `positiveTwentyNine` (20-29)
-- `positiveThirty` through `positiveThirtyNine` (30-39)
-- `positiveForty` through `positiveFortyNine` (40-49)
-- `positiveFifty` through `positiveFiftyNine` (50-59)
-- `positiveSixty` through `positiveSixtyNine` (60-69)
-- `positiveSeventy` through `positiveSeventyNine` (70-79)
-- `positiveEighty` through `positiveEightyNine` (80-89)
-- `positiveNinety` through `positiveNinetyNine` (90-99)
-- `positiveOneHundred` (100)
-
-All constants are of type `number` and are guaranteed to maintain their documented values across all versions.
-
-## Performance Considerations
-
-While `integer-values` provides unmatched reliability, developers should be aware of the following performance characteristics:
-
-- **Bundle Size**: The complete package includes 101 dependencies
-- **Load Time**: Initial require/import loads all integer modules
-- **Memory Footprint**: Each integer constant occupies dedicated memory space
-
-For performance-critical applications, consider importing only required integers directly from their individual packages.
 
 ## Contributing
 
@@ -130,7 +102,7 @@ We welcome contributions to enhance the integer ecosystem. Please ensure all pul
 - Comprehensive test coverage using Enterprise 10x Testing Framework JS
 - Updated TypeScript definitions
 - Documentation updates
-- Verification that all 101 packages remain synchronized
+- Verification that all 202 packages remain synchronized
 
 ## License
 
@@ -144,7 +116,7 @@ For enterprise support contracts, consulting services, or custom integer ranges,
 
 ## Acknowledgments
 
-Built with precision and dedication to software engineering excellence. Special thanks to the Enterprise 10x Testing Framework JS team for providing the robust testing infrastructure that makes this level of quality assurance possible.
+Built with precision and dedication to software engineering excellence.
 
 ---
 
