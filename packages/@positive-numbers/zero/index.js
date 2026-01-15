@@ -1,1 +1,3 @@
-module.exports = 0; // export 0
+const dependency = require("@std262/libnumbers").Zero;
+
+module.exports = dependency() // Export 0.

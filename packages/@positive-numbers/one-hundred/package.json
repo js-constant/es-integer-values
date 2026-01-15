@@ -1,6 +1,6 @@
 {
   "name": "@positive-numbers/one-hundred",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "The number 100 exported as an npm package.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/js-constant/positive-numbers#readme",
   "dependencies": {
-    "number-one-hundred": "^1.0.0"
+    "fizzbuzz-enterprise": "^1.0.0"
   }
 }

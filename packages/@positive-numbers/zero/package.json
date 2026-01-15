@@ -1,6 +1,6 @@
 {
   "name": "@positive-numbers/zero",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "The number 0 exported as an npm package.",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/js-constant/positive-numbers/issues"
   },
-  "homepage": "https://github.com/js-constant/positive-numbers#readme"
+  "homepage": "https://github.com/js-constant/positive-numbers#readme",
+  "dependencies": {
+    "@std262/libnumbers": "*"
+  }
 }

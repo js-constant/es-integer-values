@@ -1,6 +1,6 @@
 {
   "name": "@positive-numbers/eighteen",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "The number 18 exported as an npm package.",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,6 @@
   ],
   "author": "tj-commits",
   "license": "ISC",
-  "dependencies": {
-    "eighteen-positive-number-interactions": "*"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -27,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/js-constant/positive-numbers/issues"
   },
-  "homepage": "https://github.com/js-constant/positive-numbers#readme"
+  "homepage": "https://github.com/js-constant/positive-numbers#readme",
+  "dependencies": {
+    "@std262/libnumbers": "^1.0.0"
+  }
 }
