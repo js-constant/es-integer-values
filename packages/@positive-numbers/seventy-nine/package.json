@@ -1,6 +1,6 @@
 {
   "name": "@positive-numbers/seventy-nine",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "The number 79 exported as an npm package.",
   "main": "index.js",
   "scripts": {
