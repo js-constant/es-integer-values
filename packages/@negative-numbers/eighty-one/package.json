@@ -1,6 +1,6 @@
 {
   "name": "@negative-numbers/eighty-one",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides the number negative eighty one",
   "keywords": [
     "number",
@@ -19,6 +19,6 @@
   "author": "10x'ly Made",
   "dependencies": {
     "@positive-numbers/eighty-one": "*",
-    "countingup": "^0.0.1"
+    "countingup": "countingup-legacy-first-version"
   }
 }
